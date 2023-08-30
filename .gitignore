@@ -1,3 +1,4 @@
 # Ignore cache files 
 *.pyc
+.env
 __pycache__
