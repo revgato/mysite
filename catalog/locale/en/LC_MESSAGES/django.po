@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-31 10:41+0700\n"
+"POT-Creation-Date: 2023-09-01 13:10+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
 #: .\catalog\models.py:9
 msgid "Enter a book genre (e.g. Science Fiction)"
 msgstr ""
@@ -37,10 +38,58 @@ msgstr ""
 msgid "Select a genre for this book"
 msgstr "Select a genre for this book"
 
-#: .\catalog\models.py:38
+#: .\catalog\models.py:43
 msgid "Unique ID for this particular book accross whole library"
 msgstr "Unique ID for this particular book accross whole library"
 
-#: .\catalog\models.py:53
+#: .\catalog\models.py:58
 msgid "Book availablitity"
 msgstr "Book availablitity"
+
+#: .\catalog\templates\base_generic.html:22
+msgid "Home"
+msgstr "Home"
+
+#: .\catalog\templates\base_generic.html:23
+msgid "All books"
+msgstr "All books"
+
+#: .\catalog\templates\base_generic.html:24
+msgid "All authors"
+msgstr "All authors"
+
+#: .\catalog\templates\index.html:4
+msgid "Local Library Home"
+msgstr "Local Library Home"
+
+#: .\catalog\templates\index.html:5
+msgid ""
+"Welcome to Locallibrary, a website developed by <em>Mozilla Developer "
+"Network</em>"
+msgstr ""
+"Welcome to Locallibrary, a website developed by <em>Mozilla Developer "
+"Network</em>"
+
+#: .\catalog\templates\index.html:6
+msgid "Dynamic content"
+msgstr "Dynamic content"
+
+#: .\catalog\templates\index.html:7
+msgid "The library has the following record counts"
+msgstr "The library has the following record counts"
+
+#: .\catalog\templates\index.html:9
+msgid "Books"
+msgstr "Books"
+
+#: .\catalog\templates\index.html:10
+msgid "Copies"
+msgstr "Copies"
+
+#: .\catalog\templates\index.html:11
+msgid "Copies available"
+msgstr "Copies available"
+
+#: .\catalog\templates\index.html:12
+msgid "Authors"
+msgstr "Authors"
