@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-01 13:10+0700\n"
+"POT-Creation-Date: 2023-09-01 18:36+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: .\catalog\models.py:9
 msgid "Enter a book genre (e.g. Science Fiction)"
-msgstr ""
+msgstr "Enter a book genre (e.g. Science Fiction)"
 
 #: .\catalog\models.py:21
 msgid "Enter a brief description of the book"
@@ -42,6 +42,24 @@ msgstr "Select a genre for this book"
 msgid "Unique ID for this particular book accross whole library"
 msgstr "Unique ID for this particular book accross whole library"
 
+#: .\catalog\models.py:48
+msgid "Maintenance"
+msgstr "Maintenance"
+
+#: .\catalog\models.py:49
+msgid "On loan"
+msgstr "On loan"
+
+#: .\catalog\models.py:50
+#, fuzzy
+#| msgid "Copies available"
+msgid "Available"
+msgstr "Copies available"
+
+#: .\catalog\models.py:51
+msgid "Reversed"
+msgstr "Reversed"
+
 #: .\catalog\models.py:58
 msgid "Book availablitity"
 msgstr "Book availablitity"
@@ -57,6 +75,57 @@ msgstr "All books"
 #: .\catalog\templates\base_generic.html:24
 msgid "All authors"
 msgstr "All authors"
+
+#: .\catalog\templates\catalog\book_detail.html:5
+msgid "Title: "
+msgstr "Title: "
+
+#: .\catalog\templates\catalog\book_detail.html:8
+#, fuzzy
+#| msgid "Authors"
+msgid "Author: "
+msgstr "Authors"
+
+#: .\catalog\templates\catalog\book_detail.html:9
+msgid "Summary: "
+msgstr "Summary: "
+
+#: .\catalog\templates\catalog\book_detail.html:10
+msgid "ISBN: "
+msgstr "ISBN: "
+
+#: .\catalog\templates\catalog\book_detail.html:11
+msgid "Language: "
+msgstr "Language: "
+
+#: .\catalog\templates\catalog\book_detail.html:12
+msgid "Genre: "
+msgstr "Genre: "
+
+#: .\catalog\templates\catalog\book_detail.html:15
+#: .\catalog\templates\index.html:10
+msgid "Copies"
+msgstr "Copies"
+
+#: .\catalog\templates\catalog\book_detail.html:23
+msgid "Due to be returned: "
+msgstr "Due to be returned: "
+
+#: .\catalog\templates\catalog\book_detail.html:25
+msgid "Imprint: "
+msgstr "Imprint: "
+
+#: .\catalog\templates\catalog\book_detail.html:26
+msgid "Id: "
+msgstr "Id: "
+
+#: .\catalog\templates\catalog\book_list.html:5
+msgid "Book List"
+msgstr "Book List"
+
+#: .\catalog\templates\catalog\book_list.html:15
+msgid "There are no books in the library"
+msgstr "There are no books in the library"
 
 #: .\catalog\templates\index.html:4
 msgid "Local Library Home"
@@ -81,10 +150,6 @@ msgstr "The library has the following record counts"
 #: .\catalog\templates\index.html:9
 msgid "Books"
 msgstr "Books"
-
-#: .\catalog\templates\index.html:10
-msgid "Copies"
-msgstr "Copies"
 
 #: .\catalog\templates\index.html:11
 msgid "Copies available"

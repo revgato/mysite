@@ -1,6 +1,6 @@
 from django.db import models
 from django.urls import reverse # Used to generate URLs by reversing the URL patterns
-from django.utils.translation import gettext as _
+from django.utils.translation import gettext_lazy as _
 import uuid # Required for unique book instances
 # Create your models here.
 
@@ -30,7 +30,7 @@ class Book(models.Model):
 
     def get_absolute_url(self):
         # Return the url to access a detail record for this book
-        return reverse("book-details", args=(str(self.id)))
+        return reverse("book-detail", args=[str(self.id)])
 
     def display_genre(self):
         # Create a string for the Genre. This is required to display genre in Admin
@@ -45,10 +45,10 @@ class BookInstance(models.Model):
     imprint = models.CharField(max_length=200)
     due_back = models.DateField(null=True, blank=True)
     LOAN_STATUS = (
-        ('m', "Maintenance"),
-        ('o', 'On loan'),
-        ('a', 'Available'),
-        ('r', 'Reversed'),
+        ('m', _("Maintenance")),
+        ('o', _('On loan')),
+        ('a', _('Available')),
+        ('r', _('Reversed')),
     )
     status = models.CharField(
         max_length=1,
