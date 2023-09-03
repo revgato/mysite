@@ -8,54 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-31 10:41+0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: .\catalog\models.py:9
-msgid "Enter a book genre (e.g. Science Fiction)"
-msgstr "Enter a book genre (e.g. Science Fiction)"
-
-#: .\catalog\models.py:21
-msgid "Enter a brief description of the book"
-msgstr "Enter a brief description of the book"
-
-#: .\catalog\models.py:23
-msgid ""
-"13 Character <ahref=\"https://www.isbn-international.org/content/what-isbn"
-"\">ISBN number</a>"
-msgstr ""
-"13 Character <ahref=\"https://www.isbn-international.org/content/what-isbn"
-"\">ISBN number</a>"
-
-#: .\catalog\models.py:25
-msgid "Select a genre for this book"
-msgstr "Select a genre for this book"
-
-#: .\catalog\models.py:43
-msgid "Unique ID for this particular book accross whole library"
-msgstr "Unique ID for this particular book accross whole library"
-
-#: .\catalog\models.py:53
-msgid "Book availablitity"
-msgstr "Book availablitity"
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-01 18:36+0700\n"
+"POT-Creation-Date: 2023-09-07 13:39+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,6 +75,22 @@ msgstr "All books"
 #: .\catalog\templates\base_generic.html:24
 msgid "All authors"
 msgstr "All authors"
+
+#: .\catalog\templates\base_generic.html:34
+msgid "previous"
+msgstr ""
+
+#: .\catalog\templates\base_generic.html:37
+msgid "Page"
+msgstr ""
+
+#: .\catalog\templates\base_generic.html:37
+msgid " of "
+msgstr ""
+
+#: .\catalog\templates\base_generic.html:40
+msgid "next"
+msgstr ""
 
 #: .\catalog\templates\catalog\book_detail.html:5
 msgid "Title: "
@@ -205,3 +174,55 @@ msgstr "Copies available"
 #: .\catalog\templates\index.html:12
 msgid "Authors"
 msgstr "Authors"
+
+#: .\catalog\templates\index.html:15
+msgid "You have visited this page"
+msgstr "You have visited this page"
+
+#: .\catalog\templates\index.html:15
+msgid "time"
+msgstr "time"
+
+#: .\catalog\templates\index.html:15
+msgid "s"
+msgstr "s"
+
+#: .\templates\registration\logged_out.html:5
+msgid "Logged out"
+msgstr ""
+
+#: .\templates\registration\logged_out.html:6
+msgid "Click here to login again"
+msgstr ""
+
+#: .\templates\registration\login.html:8
+msgid "Your username and password didn't match. Please try again."
+msgstr ""
+
+#: .\templates\registration\login.html:16
+msgid "Please login to see this page."
+msgstr ""
+
+#: .\templates\registration\login.html:37
+msgid "Lost password?"
+msgstr ""
+
+#: .\templates\registration\password_reset_confirm.html:12
+msgid "New password: "
+msgstr ""
+
+#: .\templates\registration\password_reset_confirm.html:17
+msgid "Confirm password: "
+msgstr ""
+
+#: .\templates\registration\password_reset_confirm.html:27
+msgid "Password reset failed"
+msgstr ""
+
+#: .\templates\registration\password_reset_email.html:3
+msgid "Someone asked for password reset for email"
+msgstr ""
+
+#: .\templates\registration\password_reset_email.html:3
+msgid "Follow the link below: "
+msgstr ""
