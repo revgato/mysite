@@ -30,6 +30,8 @@
                 {% else %}
                     <li><a href="{% url 'login' %}?next={{request.path}}">{% trans "Login" %}</a></li>
                 {% endif %}
+                    <li>{% trans "Staff" %}</li>
+                    <li><a href="{% url 'all-borrowed' %}">{% trans "All borrowed" %}</a></li>
                 </ul>
                 {% endblock %}
             </div>
